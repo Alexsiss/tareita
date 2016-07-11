@@ -1,0 +1,54 @@
+@media (min-width:120px) {
+	[class*="col-"]{
+	width: 100%}
+    body{
+    	background-color:orange;
+    	color:white;
+    }
+}
+nav ul li{
+	display: block;
+}
+nav ul li a{
+	color:white;
+}
+nav ul li a:hover{
+color: f2f2f2;
+text-decoration: none;
+}
+
+	/*Phone*/
+@media (min-width:360px) {
+	   body{ background-color:orange;
+	}
+
+@media(min-width: 560px){
+	nav ul li{
+		display: inline;
+	}
+}
+	/*Tablet*/
+@media (min-width:768px) {
+       body{ background-color:orange; }
+.col-1{width: 8.333%;}
+.col-2{width: 16.666%;}
+.col-3{width: 24.999%;}
+.col-4{width: 33.332%;}
+.col-5{width: 41.665%;}
+.col-6{width: 49.998%;}
+.col-7{width: 58.331%;}
+.col-8{width: 66.664%;}
+.col-9{width: 74.997%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.663%;}
+.col-12{width: 99.996%;}
+}
+
+    /*Monitor*/
+	@media (min-width:980px) {
+       body{ background-color:orange;
+	}
+    /*T.V*/
+@media (min-width:1280px) {
+       body{ background-color:orange;
+    }
